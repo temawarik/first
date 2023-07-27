@@ -1,0 +1,117 @@
+html {
+ font-family: 'Ubuntu';
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    padding-left: 135px;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-container {
+    display: flex;
+}
+
+.logo {
+    color: #000; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-weight: 800; 
+    line-height: 26px;
+}
+
+.logo-number {
+    font-size: 21px; 
+    font-style: normal; 
+    font-weight: 800; 
+    line-height: 26px; 
+    background: var(--green-gradient, linear-gradient(270deg, #8EE901 0%, #4F9C2C 100%)); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.link {
+    margin-right: 23px;
+}
+
+.link a {
+    color: #000; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 18px; 
+    text-transform: uppercase;
+}
+
+.open a {
+    color: #60b021;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #60b021;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-button {
+    padding: 27px;
+    border-left: 1px solid #efefef;
+}
+
+.img-title {
+    color: #000; 
+    font-size: 30px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 61px; 
+    text-transform: uppercase;
+    background: white;
+    padding:0 20px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.img {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 50px;
+    left: 135px;
+}
+
+.green-title {
+    background: var(--green-gradient, linear-gradient(270deg, #8EE901 0%, #4F9C2C 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first {
+    bottom: 170px;
+    z-index: 2;
+}
+
+.second {
+    bottom: 110px;
+    z-index: 1;
+}
+
+.third {
+    bottom: 50px;
+}
